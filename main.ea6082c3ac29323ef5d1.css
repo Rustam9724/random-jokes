@@ -1,0 +1,257 @@
+/*!**********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss ***!
+  \**********************************************************************************************************************************************************/
+@font-face {
+  font-family: "Snell Roundhand";
+  src: url(7e354df498b210535be7.ttf);
+}
+*, ul, p, h1, h2, h3, h4, button, body, input, ::before, ::after, div {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol, li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html, body {
+  height: 100%;
+  line-height: 1;
+  font-size: 10px;
+  color: #000;
+  font-family: "Snell Roundhand";
+}
+
+@keyframes disappearance {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes appearance {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.wrapper {
+  height: 100vh;
+  background: url(01398f994652937368f0.avif) no-repeat;
+  background-size: cover;
+  padding-top: 1.5rem;
+}
+.wrapper .container {
+  width: 80%;
+  margin: 0 auto;
+}
+.wrapper .container .buttons {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin: 0 auto 20rem;
+}
+.wrapper .container .buttons .btn {
+  width: 45%;
+  font-size: 3rem;
+  border: 3px solid white;
+  border-radius: 10px;
+  font-weight: 400;
+  cursor: pointer;
+  height: max-content;
+  background-color: #d7ccc8;
+}
+.wrapper .container .buttons .btn:hover {
+  background-color: #a1887f;
+  transition: all 0.5s ease-in;
+}
+@media (max-width: 710px) {
+  .wrapper .container .buttons .btn {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 594px) {
+  .wrapper .container .buttons .btn {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 478px) {
+  .wrapper .container .buttons .btn {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 432px) {
+  .wrapper .container .buttons .btn {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 385px) {
+  .wrapper .container .buttons .btn {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 362px) {
+  .wrapper .container .buttons .btn {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 339px) {
+  .wrapper .container .buttons .btn {
+    font-size: 1.3rem;
+  }
+}
+.wrapper .container .buttons .quote-button {
+  margin-bottom: 2rem;
+}
+@media (max-width: 1142px) {
+  .wrapper .container .buttons {
+    width: 80%;
+  }
+}
+@media (max-width: 999px) {
+  .wrapper .container .buttons {
+    width: 90%;
+  }
+}
+@media (max-width: 888px) {
+  .wrapper .container .buttons {
+    width: 100%;
+  }
+}
+.wrapper .container .quote {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  line-height: 120%;
+  transition: all 0.5s ease-in;
+  opacity: 1;
+  width: 52%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 998px) {
+  .wrapper .container .quote {
+    width: 60%;
+  }
+}
+@media (max-width: 865px) {
+  .wrapper .container .quote {
+    width: 70%;
+  }
+}
+@media (max-width: 658px) {
+  .wrapper .container .quote {
+    width: 80%;
+    margin-left: 25%;
+  }
+}
+@media (max-width: 576px) {
+  .wrapper .container .quote {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .wrapper .container .quote {
+    width: 90%;
+    margin-left: auto;
+  }
+}
+@media (max-width: 426px) {
+  .wrapper .container .quote {
+    width: 100%;
+    margin-left: 5%;
+  }
+}
+@media (max-width: 384px) {
+  .wrapper .container .quote {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 353px) {
+  .wrapper .container .quote {
+    font-size: 2.1rem;
+  }
+}
+@media (max-width: 322px) {
+  .wrapper .container .quote {
+    font-size: 2rem;
+  }
+}
+.wrapper .container .author {
+  font-size: 3rem;
+  margin-left: 23.5%;
+  font-family: serif;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+@media (max-width: 998px) {
+  .wrapper .container .author {
+    margin-left: 19%;
+  }
+}
+@media (max-width: 865px) {
+  .wrapper .container .author {
+    margin-left: 14.5%;
+  }
+}
+@media (max-width: 658px) {
+  .wrapper .container .author {
+    margin-left: 23.5%;
+  }
+}
+@media (max-width: 576px) {
+  .wrapper .container .author {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .wrapper .container .author {
+    margin-left: 4%;
+  }
+}
+@media (max-width: 384px) {
+  .wrapper .container .author {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 353px) {
+  .wrapper .container .author {
+    font-size: 2.1rem;
+  }
+}
+@media (max-width: 322px) {
+  .wrapper .container .author {
+    font-size: 2.1rem;
+  }
+}
+@media (max-width: 799px) {
+  .wrapper .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    background-position: 15%;
+  }
+}
+
+/*# sourceMappingURL=main.ea6082c3ac29323ef5d1.css.map*/
