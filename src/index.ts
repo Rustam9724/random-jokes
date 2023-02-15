@@ -26,7 +26,7 @@ const getEnglishQuote = () => {
     setTimeout(async () => {
         const response = await fetch('https://type.fit/api/quotes');
         let result = await response.json();
-        quoteField.innerHTML = `"${result[Math.floor(Math.random() * (quotes.length))].text};`
+        quoteField.innerHTML = `"${result[Math.floor(Math.random() * (quotes.length))].text}"`
         authorField.innerHTML = result[Math.floor(Math.random() * (quotes.length))].author;
     }, 500)
     setTimeout(() => {

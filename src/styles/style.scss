@@ -85,48 +85,206 @@ html, body {
                 }
             }
 
+            @media (max-width: 710px) {
+                .btn {
+                    font-size: 2.5rem;
+                }
+            }
+
+            @media (max-width: 594px) {
+                .btn {
+                    font-size: 2rem;
+                }
+            }
+
+            @media (max-width: 478px) {
+                .btn {
+                    font-size: 1.8rem;
+                }
+            }
+
+            @media (max-width: 432px) {
+                .btn {
+                    font-size: 1.6rem;
+                }
+            }
+
+            @media (max-width: 385px) {
+                .btn {
+                    font-size: 1.5rem;
+                }
+            }
+
+            @media (max-width: 362px) {
+                .btn {
+                    font-size: 1.4rem;
+                }
+            }
+
+            @media (max-width: 339px) {
+                .btn {
+                    font-size: 1.3rem;
+                }
+            }
+
             .quote-button {
                 margin-bottom: 2rem;
             }
         }
 
+        @media (max-width: 1142px) {
+            .buttons {
+                width: 80%
+            }
+        }
+
+        @media (max-width: 999px) {
+            .buttons {
+                width: 90%
+            }
+        }
+
+        @media (max-width: 888px) {
+            .buttons {
+                width: 100%
+            }
+        }
+
         .quote {
             font-size: 3rem;
-            margin-bottom: 2rem;;
-            margin-left: 50%;
-            transform: translateX(-50%);
+            margin-bottom: 2rem;
             font-weight: 600;
             line-height: 120%;
             transition: all 0.5s ease-in;
             opacity: 1;
+            width: 52%;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-            // &.vsble {
-            //     animation: appearance 0.5s ease-in forwards;
-            // }
+        @media (max-width: 998px) {
+            .quote {
+                width: 60%;
+            }
+        }
 
-            // &.hdn {
-            //     animation: disappearance 0.5s ease-in;
-            // }
+        @media (max-width: 865px) {
+            .quote {
+                width: 70%;
+            }
+        }
 
+        @media (max-width: 658px) {
+            .quote {
+                width: 80%;
+                margin-left: 25%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .quote {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .quote {
+                width: 90%;
+                margin-left: auto;
+            }
+        }
+
+        @media (max-width: 426px) {
+            .quote {
+                width: 100%;
+                margin-left: 5%;
+            }
+        }
+
+        @media (max-width: 384px) {
+            .quote {
+                font-size: 2.3rem;
+            }
+        }
+
+        @media (max-width: 353px) {
+            .quote {
+                font-size: 2.1rem;
+            }
+        }
+
+        @media (max-width: 322px) {
+            .quote {
+                font-size: 2rem;
+            }
         }
 
         .author {
             font-size: 3rem;
-            margin-left: 25%;
+            margin-left: 23.5%;
             font-family: serif;
             font-weight: 400;
-            margin-bottom: 2rem; 
-
-            // &.vsble {
-            //     animation: appearance 0.5s ease-in forwards;
-            // }
-
-            // &.hdn {
-            //     animation: disappearance 0.5s ease-in;
-            // }
+            margin-bottom: 2rem;
         }
 
-        .language-button {
+        @media (max-width: 998px) {
+            .author {
+                margin-left: 19%
+            }
         }
+
+        @media (max-width: 865px) {
+            .author {
+                margin-left: 14.5%
+            }
+        }
+
+        @media (max-width: 658px) {
+            .author {
+                margin-left: 23.5%
+            }
+        }
+
+        @media (max-width: 576px) {
+            .author {   
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .author {   
+                margin-left: 4%;
+            }
+        }
+
+        @media (max-width: 384px) {
+            .author {   
+                font-size: 2.3rem;
+            }
+        }
+
+        @media (max-width: 353px) {
+            .author {   
+                font-size: 2.1rem;
+            }
+        }
+
+        @media (max-width: 322px) {
+            .author {   
+                font-size: 2.1rem;
+            }
+        }
+    }
+
+    @media (max-width: 799px) {
+        .container {
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        background-position: 15%;
     }
 }
