@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Snell Roundhand';
+    src: url('../assets/ofont.ru_Snell\ Roundhand.ttf');
+};
+
+*, ul, p, h1, h2, h3, h4, button, body, input, ::before, ::after, div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html, body {
+    height: 100%;
+    line-height: 1;
+    font-size: 10px;
+    color: #000;
+    font-family: 'Snell Roundhand';
+}
+
+@keyframes disappearance {
+    from {
+        opacity: 1;
+    } 
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes appearance {
+    from {
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+
+
+.wrapper {
+    height: 100vh;
+    background: url('../assets//background.avif') no-repeat;
+    background-size: cover;
+    padding-top: 1.5rem;
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+
+        .buttons {
+            display: flex;
+            width: 70%;
+            justify-content: space-between;
+            margin: 0 auto 20rem;
+
+            .btn {
+                width: 45%;
+                font-size: 3rem;
+                border: 3px solid white;
+                border-radius: 10px;
+                font-weight: 400;
+                cursor: pointer;
+                height: max-content;
+                background-color: #d7ccc8;
+
+                &:hover {
+                    background-color: #a1887f;
+                    transition: all 0.5s ease-in;
+                }
+            }
+
+            .quote-button {
+                margin-bottom: 2rem;
+            }
+        }
+
+        .quote {
+            font-size: 3rem;
+            margin-bottom: 2rem;;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            font-weight: 600;
+            line-height: 120%;
+            transition: all 0.5s ease-in;
+            opacity: 1;
+
+            // &.vsble {
+            //     animation: appearance 0.5s ease-in forwards;
+            // }
+
+            // &.hdn {
+            //     animation: disappearance 0.5s ease-in;
+            // }
+
+        }
+
+        .author {
+            font-size: 3rem;
+            margin-left: 25%;
+            font-family: serif;
+            font-weight: 400;
+            margin-bottom: 2rem; 
+
+            // &.vsble {
+            //     animation: appearance 0.5s ease-in forwards;
+            // }
+
+            // &.hdn {
+            //     animation: disappearance 0.5s ease-in;
+            // }
+        }
+
+        .language-button {
+        }
+    }
+}
